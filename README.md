@@ -3,7 +3,7 @@
 A python port for VISION: VIdeo StabilisatION using automatic features selection for image velocimetry analysis in rivers.
 
 ## Input
- 
+
 - `filename`: The name of the video file, e.g.: 'RawVideo.avi'
 - `NameStabilisedVideo`: Name of the stabilised video.
 - `algorithms`: List of algorithms to use for feature detection. You can use up to two algorithms at the same time. e.g.: ['FAST']. ['FAST', 'KAZE'].
@@ -17,15 +17,15 @@ A python port for VISION: VIdeo StabilisatION using automatic features selection
 
 ## Outputs
 
-- Number of Frames
-- Frame Per Seconds (FPS)
-- Region Of Interest (ROI)
+    Number of Frames
+    Frame Per Seconds (FPS)
+    Region Of Interest (ROI)
 
 ## Dependencies
 
-- Python 3.7+
-- Numpy 1.19.5+
-- opencv-contrib-python 4.9.0+
+    Python 3.7+
+    Numpy 1.19.5+
+    opencv-contrib-python 4.9.0+
 
 ## Example
 
@@ -35,22 +35,23 @@ A python port for VISION: VIdeo StabilisatION using automatic features selection
     StabilisationViewer = 0)
 
 ## Authors:
-    Alonso Pizarro (1)
-    Silvano F. Dal Sasso (2)
-    Salvatore Manfreda (3)
-   
-### Python porter:
-    Diego Fischer (4)(difischer@uc.cl)
 
-- (1) Universidad Diego Portales, Chile | alonso.pizarro@mail.udp.cl (https://orcid.org/0000-0002-7242-6559)
-- (2) Università Degli Studi Della Basilicata, Italy | silvano.dalsasso@unibas.it (https://orcid.org/0000-0003-1376-7764)
-- (3) University of Naples Federico II, Italy | salvatore.manfreda@unina.it (https://orcid.org/0000-0002-0225-144X)
-- (4) Pontificia Unviersidad Católica de Chile | difischer@uc.cl
+Alonso Pizarro (1)
+Silvano F. Dal Sasso (2)
+Salvatore Manfreda (3)
 
-Version History:x
-Note:
-Diego Fischer is not a member of the code nor the paper's authors. 
-He is only the Python porter of the code.
+#### Python porter:
+
+Diego Fischer (4)(<difischer@uc.cl>)
+
+- (1) Universidad Diego Portales, Chile | <alonso.pizarro@mail.udp.cl> (<https://orcid.org/0000-0002-7242-6559>)
+- (2) Università Degli Studi Della Basilicata, Italy | <silvano.dalsasso@unibas.it> (<https://orcid.org/0000-0003-1376-7764>)
+- (3) University of Naples Federico II, Italy | <salvatore.manfreda@unina.it> (<https://orcid.org/0000-0002-0225-144X>)
+- (4) Pontificia Unviersidad Católica de Chile | <difischer@uc.cl>
+
+# Note:
+
+Diego Fischer is not a member of the code nor the paper's authors. He is only the Python porter of the code.
 
 Copyright (C) 2021 Alonso Pizarro, Silvano F. Dal Sasso & Salvatore Manfreda
 This program is free software (BSD 3-Clause) and distributed WITHOUT ANY
